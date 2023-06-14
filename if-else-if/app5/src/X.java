@@ -1,0 +1,19 @@
+class X 
+{
+	public static void main(String[] args) 
+	{
+		int i;
+		int[] x={20,30,40,50,60,70,10,20,30,40};
+		//int[] x={10,50,70,20,30,40,50,60,70,10,20,30,40,11,13,17,19,23};
+		for (i= x.length-1;i>=0;i-- )
+			//for(i=0;i<x.length;i++)
+			//for(i=(x.length/2)+1;i<x.length;i++)
+			//for (i= x.length-1;i>=0;i-- )
+		{
+			if(x[i]%2 == 0)
+			//if(x[i]%2 != 0)
+			System.out.println(x[i]);
+			System.out.println(x[i]);
+		}
+	}
+}

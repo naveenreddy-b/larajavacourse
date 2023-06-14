@@ -1,0 +1,9 @@
+class P
+{
+	public static void main(String[] args) 
+	{
+		int i = 101010;
+		int j = (i / 111110);
+		System.out.println(j);
+	}
+}

@@ -1,0 +1,25 @@
+class G
+{
+	int i;
+	public static void main(String[] args) 
+	{
+		G g1 = new G();//object creation
+		System.out.println(g1.i);//by using reference of G class object we can access the non static variable i.
+		//this g1 reference is local to main method.
+	}
+}
+//an object is a real world entity
+//class is a blue print to create the objects
+//objects will be having attributes and behaviours
+//ex: dog object properties or attributes:name,age,color,breed,gender,weight
+                            //behaviours: bark(),chasecat().bite(),chasevehicle
+//properties=data members
+//behaviours=member functions
+//for one class we can able create any number of objects
+//G g1= G(class name), g1(reference variable name)(name can be anything)
+// = assignment operator(left side assignment)
+//new is a keyword and also an operator
+//G(); - calling G class no argument constructor
+//variable , method follow the case like variableNumberOne,methodNumberOne
+// variable name should be a valid identifier
+//while you are refering to the class case must be same(as a standard we will write

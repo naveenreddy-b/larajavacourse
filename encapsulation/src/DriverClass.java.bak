@@ -1,0 +1,30 @@
+class A1
+{
+	private String name;
+	private int rollnumber;
+	private int age;
+
+	//read-only//getter methods
+	//getter and setter method must be declared as public
+}
+public String getName()
+{
+	return name;//this.name;
+}
+public int getRollNumber()
+{
+	return rollnumber;//this.rollnumber;
+}
+public int getAge()
+{
+	return age;//this.age;
+}
+	public static void main(String[] args) 
+	{
+		A a1 = new A();
+		System.out.println(a1.getName());
+		System.out.println(a1.getRollNumber());
+		System.out.println(a1.getAge());
+	}
+}
+

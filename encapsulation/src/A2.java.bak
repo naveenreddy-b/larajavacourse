@@ -1,0 +1,40 @@
+class A2
+{
+	private String name;
+	private int idNum;
+	private int age;
+	public int getAge();
+	{
+		return age;
+	}
+	public String getName()
+	{
+		return name;
+	}
+	public String getIDnum()
+	{
+		return idNum;
+	}
+	public int setAge(int newAge);
+	{
+		this. age = newage;
+	}
+	public int setName(String newName);
+	{
+		this. age = newage;
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+/*
+encapsulation in java is a process of wrapping code and data together 
+into a single unit,for example, a capsule which is mixed of several medicines.
+we can able to acheive data security through encapsulation
+we can acheive data hiding
+by using getters and setters we can make the data read only or write only
+by uisng getters and setters we can have control over the data
+
+static variables or non-static variables = data members
+static methods or non-static methods = member functions

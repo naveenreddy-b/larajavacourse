@@ -1,0 +1,25 @@
+class BankAccount 
+{
+	private double balance;
+
+	public double getBalance()
+	{
+		return balance;
+	}
+	public void deposit(double amount)
+	{
+		// Implement deposit logic here
+	}
+	public void withdraw(double amount)
+	{
+		//Implement withdrawal logic here
+	}
+	public static void main(String[] args) 
+	{
+		BankAccount account = new BankAccount();
+		account.deposit(1000);
+		double balance = account.getBalance();
+		System.out.println("Balance:" + balance);
+	}
+}
+/*
